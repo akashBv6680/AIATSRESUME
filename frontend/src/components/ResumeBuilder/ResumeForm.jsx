@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import SectionEditor from "./SectionEditor";
-import LiveATSPreview from "./LiveATSPreview";
+import LiveATSPreview from "./LiveATSPreview.jsx";
 import { createResume } from "../../services/resume";
 
 const defaultSections = {
